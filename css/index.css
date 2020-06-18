@@ -1,0 +1,37 @@
+@charset "utf-8";
+* {
+  box-sizing: border-box;
+}
+h1 {
+  color: blue;
+}
+p {
+  font: "楷体";
+}
+a:link, a:visited {
+  border-style: solid;
+  border-width: 1px;
+  border-color: transparent;
+  color: #33ff66
+}
+a:hover {
+  border-color: gray;
+  color: gray;
+}
+div.tag {
+  border-radius: 50px !important;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  transition: all .15s;
+  color: white;
+  min-width: 10px;
+  display: inline-block;
+  white-space: nowrap;
+  background-color: #8e44ad;
+}
+div.am-badge:hover, div.tag span.lfe-caption:hover, div.difficulty span.lfe-caption:hover{,
+  transform: translateY(-1px);
+  box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+}
